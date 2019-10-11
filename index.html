@@ -1,21 +1,22 @@
 <html>
 <body style="font-family:helvetica;">
 
+
 <audio id="myAudio">
   <source src="sounds/hi_conga.wav" type="audio/mpeg">
 </audio>
 
 <center>
-<h2> Periodic Signal Generator </h2>
+  <h2> Periodic Signal Generator </h2>
 
-<h3 style="color:rgb(9, 130, 155);"> Peace Corps Liberia </h3>
+  <h3 style="color:rgb(9, 130, 155);"> Peace Corps Liberia </h3>
 
-<p> Period = <input type=number id="pperiod" min = 0.7 value=1 step=0.01 oninput="myFunction()"/></input> seconds </p>
+  <p> Period = <input type=number id="pperiod" min = 0.62 value=1 step=0.01 onkeydown="return false" oninput="myFunction()"/></input> seconds </p>
 
-<p> Change value of period to start sound.</p>
+  <p> Change value of period to start sound.</p>
 
-<p> Minimum Period = 0.7 seconds</p>
-</center>
+  <p> Minimum Period = 0.7 seconds</p>
+  </center>
 
 <script>
   var x = document.getElementById("myAudio"); 
@@ -38,3 +39,16 @@
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
